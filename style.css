@@ -1,1 +1,51 @@
-/*Personal Web Page Style Sheet */
+body    {background-color: navy;
+        padding:20px;
+        color: black;
+        font-family: cursive;
+        text-decoration-color: black;}
+
+h1      {background-color: white;
+        margin-left: 200px;
+        margin-right: 200px;
+        text-align-last: center;
+        padding-left: 25px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-style: bold;
+        text-shadow: 10px;}
+
+h3      {font-style: bold;
+        text-shadow: 5px;}
+
+ul      {font-style: italic;}
+
+ol      {font-style: italic;}
+            
+* {box-sizing: border-box;}
+
+.column {float: left;
+        padding: 10px;
+        height: 450px;}
+
+.left {width: 33%;}
+            
+.middle {width: 34%;}
+            
+.right {width: 33%;}
+
+.row:after {display: table;
+            clear: both;}
+            
+a:link {color: #296d98;}
+
+a:visited {color: #9b111e;}
+            
+a.highlight:hover {color: #000000;}
+
+div.gallery {margin: 5px;
+            float: left;
+            width: 180px;}
+
+div.gallery img {width: 100%;
+                height: auto;
+                float: center;}
